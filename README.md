@@ -25,15 +25,21 @@ Notebooks **must be run in the correct order**, as several steps depend on CSV f
 
 Run each year independently (data loading is time-consuming):
 
-Best Alg YYYY.ipynb
+Best Alg YYYY.ipynb 
+
 Each notebook outputs: results/best_algos_YYYY.csv
 
 ---
 
 ### 1.2 Aggregate Results Across Years
 
-After all yearly notebooks are executed: comparing years for the BBOB test Suite.ipynb
-Output: results/global_best_algos.csv
+After all yearly notebooks are executed: 
+
+comparing years for the BBOB test Suite.ipynb
+
+Output: 
+
+results/global_best_algos.csv
 
 
 This file is required for the factor method.
@@ -56,9 +62,11 @@ This notebook:
 ### 2.1 Strict Winner Method (per year)
 
 Run: 
+
 BBOB noisy YYYY.ipynb
 
 Each notebook outputs:
+
 results/best_algos_noisy_YYYY.csv
 
 ---
