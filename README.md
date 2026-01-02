@@ -12,28 +12,6 @@ For each test suite, two complementary methods are implemented:
 2. **Factor Method** – selects near-optimal algorithms within a chosen performance factor
 
 
-## Repository Structure
-
-├── ppdata/ # COCO benchmark raw data (required, not versioned)
-├── results/ # Generated CSV outputs
-│
-├── Best Alg YYYY.ipynb
-├── BBOB noisy YYYY.ipynb
-├── BBOB biobj YYYY.ipynb
-│
-├── comparing years for the BBOB test Suite.ipynb
-├── comparing years for the BBOB - noisy test Suite.ipynb
-├── comparing years for the BBOB - biobj test Suite.ipynb
-│
-├── Factor method with the bbob test suite.ipynb
-├── Factor method with the bbob noisy test suite.ipynb
-├── Factor method with the bbob biobj test suite.ipynb
-│
-├── Final Results.ipynb
-└── Getting familiar with the data.ipynb
-
-
----
 
 ## Execution Order (IMPORTANT)
 
@@ -47,21 +25,7 @@ Notebooks **must be run in the correct order**, as several steps depend on CSV f
 
 Run each year independently (data loading is time-consuming):
 
-Best Alg 2009.ipynb
-Best Alg 2010.ipynb
-Best Alg 2012.ipynb
-Best Alg 2013.ipynb
-Best Alg 2015.ipynb
-Best Alg 2016.ipynb
-Best Alg 2017.ipynb
-Best Alg 2018.ipynb
-Best Alg 2019.ipynb
-Best Alg 2020.ipynb
-Best Alg 2021.ipynb
-Best Alg 2022.ipynb
-Best Alg 2023.ipynb
-Best Alg 2024.ipynb
-
+Best Alg YYYY.ipynb
 Each notebook outputs: results/best_algos_YYYY.csv
 
 ---
@@ -91,10 +55,8 @@ This notebook:
 
 ### 2.1 Strict Winner Method (per year)
 
-BBOB noisy 2009.ipynb
-BBOB noisy 2010.ipynb
-BBOB noisy 2012.ipynb
-BBOB noisy 2016.ipynb
+Run: 
+BBOB noisy YYYY.ipynb
 
 Each notebook outputs:
 results/best_algos_noisy_YYYY.csv
@@ -122,12 +84,8 @@ Factor method with the bbob noisy test suite.ipynb
 ### 3.1 Strict Winner Method (per year)
 
 
-
-BBOB biobj 2016.ipynb
-BBOB biobj 2019.ipynb
-BBOB biobj 2021.ipynb
-BBOB biobj 2022.ipynb
-BBOB biobj 2023.ipynb
+Run
+BBOB biobj YYYY.ipynb
 
 
 Each notebook outputs:
